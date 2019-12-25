@@ -3,6 +3,7 @@ import Notifications from './Notifications'
 import ProjectList from '../projects/ProjectList'
 
 
+
 class Dashboard extends Component{
     render(){
         return(
@@ -10,7 +11,7 @@ class Dashboard extends Component{
                 <div className="row">
                     <div className="col s12 m6">
                         <ProjectList/>
-                      
+                 
                     </div>
 
                     <div className="col s12 m5 offset-m1">
